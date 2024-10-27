@@ -1,0 +1,21 @@
+.btn__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn__container > button {
+  border: none;
+  padding: 15px 30px;
+  font-size: 25px;
+  color: black;
+  border-radius: 10px;
+  transition: all 0.3s ease-in;
+}
+
+.btn__container > button:hover {
+  background-color: black;
+  color: white;
+  border: none;
+}
